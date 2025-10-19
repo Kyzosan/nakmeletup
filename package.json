@@ -1,0 +1,21 @@
+{
+  "name": "otax-vps-bot",
+  "version": "2.0.0",
+  "description": "Telegram bot multi-akun DigitalOcean, auto-deploy Pterodactyl Panel, Wings, dan Theme",
+  "main": "otaxvps.js",
+  "scripts": {
+    "start": "node otaxvps.js"
+  },
+  "author": "OTAX",
+  "license": "MIT",
+"dependencies": {
+  "dotenv": "^16.4.5",
+  "fs-extra": "^11.2.0",
+  "node-telegram-bot-api": "^0.61.0",
+  "digitalocean": "^1.0.0",
+  "ssh2": "^1.15.0",
+  "axios" : "latest",
+  "path" : "latest",
+  "child_process": "latest"
+}
+}
